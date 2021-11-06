@@ -1,0 +1,11 @@
+# Except for the secret key, none of these are actually needed; Rocket has sane
+# defaults. We show all of them here explicitly for demonstrative purposes.
+
+
+[development]
+address = "127.0.0.1"
+port = 8080
+workers = 1
+keep_alive = 15
+log = "normal"
+
